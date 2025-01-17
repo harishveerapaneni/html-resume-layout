@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.layout{
+    margin: 5% 15%;
+    padding: 5rem 0px;
+    border: 2px solid black;
+}
+.topper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+
+}
+.topper nav {
+    display: flex;
+}
+.topper nav a{
+    list-style: none;
+    margin: 0px 10px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0px;
+}
+.title ul{
+    display: flex;
+}
+.title ul li{
+    list-style: none;
+    margin: 15px 5px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    align-content: space-between;
+    border: 2px solid black;
+}
+
+.content h3{
+    padding: 10px 0px 0px 10px;
+}
+
+.project{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 0px 0px 0px 10px;
+}
+.project p{
+    margin: 5px 0px;
+    border-top: 1px solid black;
+    padding-top: 15px;
+}
+ .experince{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.experince h6 {
+    padding: 10px 0px;
+    font-size: medium;
+}
+.experince a {
+    margin: 10px 0px;
+}
+.experince .upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+
+}
+.experince .lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+ .education{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    border: 2px solid black;
+    padding: 0px 0px 0px 10px;
+
+
+}
+.education p{
+    margin: 5px 0px;
+    
+}
+.education h5{
+    margin: 5px 0px;
+}
+.education ul li{
+    list-style: none;
+    margin: 5px 0px;
+    }
+footer .review{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
+footer h3{
+    margin: 2rem 0px 2rem 10px;
+}
+footer .student{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 50px;
+}
+footer h2{
+    margin: 5rem 0px ;
+    text-align: center;
+    font-style: italic;
+}
