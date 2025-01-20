@@ -25,6 +25,12 @@
 .topper nav {
     display: flex;
 }
+@media screen and (max-width: 375px) {
+    .topper nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 .topper nav a {
     list-style: none;
@@ -43,6 +49,12 @@
     border-radius: 5px;
 
 
+}
+@media screen and (max-width: 375px) {
+.title{
+    margin: 5px 1rem;
+    padding: 0px 10px;
+}
 }
 
 .title p {
